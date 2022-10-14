@@ -1,0 +1,12 @@
+/* Test out BG color */
+* {
+  background-color: beige;
+}
+/* Font color */
+* {
+  color: blueviolet;
+}
+/* Change navigation Color (Check why h1 BG didnt change */
+nav {
+  background-color: aqua;
+}
