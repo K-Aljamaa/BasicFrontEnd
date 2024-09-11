@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.main-content .text-content {
+    max-width: 600px;
+}
+
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.image-placeholder {
+    background-color: #555;
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 30px;
+}
+
+.info-section .info-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.info-section .box {
+    background-color: white;
+    border: 2px solid #007bff;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    background-color: #e0e0e0;
+    padding: 40px 200px;
+    text-align: center;
+}
+
+.quote-section blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.quote-section cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cta-section button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
