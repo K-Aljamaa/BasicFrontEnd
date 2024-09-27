@@ -1,10 +1,14 @@
 let userScore = 0;
 let computerScore = 0;
 let roundsPlayed = 0;
-const maxRounds = 5;
+const maxRounds = 10;
 
-function playGame() {
-    const userChoice = document.getElementById('userChoice').value.toLowerCase();
+rock.addEventListener('click', () => playGame('rock'));
+document.getElementById('paper').addEventListener('click', () => playGame('paper'));
+document.getElementById('scissors').addEventListener('click', () => playGame('scissors'));
+
+function playGame(userChoice) {
+
     const computerChoice = getComputerChoice();
     const result = determineWinner(userChoice, computerChoice);
     
